@@ -123,7 +123,7 @@ public class Calculator {
                     addWrite = false;
                 }
         });
-
+        System.out.println("Commit example in Jira");
         btnDiv = initBtn("/", x[3], y[1], event -> {
             repaintFont();
             if (Pattern.matches("([-]?\\d+[.]\\d*)|(\\d+)", inText.getText()))

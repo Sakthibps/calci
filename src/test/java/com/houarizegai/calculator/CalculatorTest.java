@@ -20,6 +20,7 @@ class CalculatorTest {
     void testCalc() {
         double first = 3;
         String second = "5";
+        System.out.println("Hai");
 
         try {
             Assertions.assertEquals(8, calculator.calc(first, second, '+'));
